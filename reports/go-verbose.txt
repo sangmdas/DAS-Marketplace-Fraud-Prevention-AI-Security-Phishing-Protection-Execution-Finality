@@ -1,0 +1,52 @@
+=== RUN   TestAdmissionMatrix
+=== RUN   TestAdmissionMatrix/valid_message
+=== RUN   TestAdmissionMatrix/wrong_recipient
+=== RUN   TestAdmissionMatrix/missing_booking
+=== RUN   TestAdmissionMatrix/payment_link_out_of_scope
+=== RUN   TestAdmissionMatrix/unverified_actor
+=== RUN   TestAdmissionMatrix/unverified_property
+=== RUN   TestAdmissionMatrix/missing_delegation
+=== RUN   TestAdmissionMatrix/high_risk_threshold
+=== RUN   TestAdmissionMatrix/very_high_risk
+=== RUN   TestAdmissionMatrix/stale_generation
+=== RUN   TestAdmissionMatrix/unknown_current_generation
+=== RUN   TestAdmissionMatrix/expired
+=== RUN   TestAdmissionMatrix/missing_actor
+=== RUN   TestAdmissionMatrix/missing_property
+=== RUN   TestAdmissionMatrix/invalid_kind
+=== RUN   TestAdmissionMatrix/valid_payment
+=== RUN   TestAdmissionMatrix/payment_merchant_substitution
+=== RUN   TestAdmissionMatrix/payment_amount_substitution
+=== RUN   TestAdmissionMatrix/payment_currency_substitution
+=== RUN   TestAdmissionMatrix/unlabelled_boosted_ad
+--- PASS: TestAdmissionMatrix (0.00s)
+    --- PASS: TestAdmissionMatrix/valid_message (0.00s)
+    --- PASS: TestAdmissionMatrix/wrong_recipient (0.00s)
+    --- PASS: TestAdmissionMatrix/missing_booking (0.00s)
+    --- PASS: TestAdmissionMatrix/payment_link_out_of_scope (0.00s)
+    --- PASS: TestAdmissionMatrix/unverified_actor (0.00s)
+    --- PASS: TestAdmissionMatrix/unverified_property (0.00s)
+    --- PASS: TestAdmissionMatrix/missing_delegation (0.00s)
+    --- PASS: TestAdmissionMatrix/high_risk_threshold (0.00s)
+    --- PASS: TestAdmissionMatrix/very_high_risk (0.00s)
+    --- PASS: TestAdmissionMatrix/stale_generation (0.00s)
+    --- PASS: TestAdmissionMatrix/unknown_current_generation (0.00s)
+    --- PASS: TestAdmissionMatrix/expired (0.00s)
+    --- PASS: TestAdmissionMatrix/missing_actor (0.00s)
+    --- PASS: TestAdmissionMatrix/missing_property (0.00s)
+    --- PASS: TestAdmissionMatrix/invalid_kind (0.00s)
+    --- PASS: TestAdmissionMatrix/valid_payment (0.00s)
+    --- PASS: TestAdmissionMatrix/payment_merchant_substitution (0.00s)
+    --- PASS: TestAdmissionMatrix/payment_amount_substitution (0.00s)
+    --- PASS: TestAdmissionMatrix/payment_currency_substitution (0.00s)
+    --- PASS: TestAdmissionMatrix/unlabelled_boosted_ad (0.00s)
+=== RUN   TestReplayAndValidAd
+--- PASS: TestReplayAndValidAd (0.00s)
+=== RUN   TestConcurrentSingleUse
+--- PASS: TestConcurrentSingleUse (0.00s)
+=== RUN   TestHTTPWellFormedAndMalformed
+--- PASS: TestHTTPWellFormedAndMalformed (0.00s)
+=== RUN   TestHTTPMethodAndBodyRestrictions
+--- PASS: TestHTTPMethodAndBodyRestrictions (0.00s)
+PASS
+ok  	example.org/das-marketplace-gateway	0.003s

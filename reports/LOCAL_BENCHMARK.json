@@ -1,0 +1,43 @@
+{
+  "title": "SYNTHETIC IN-PROCESS SQLITE MODEL ONLY",
+  "measured": true,
+  "production_latency_claim": false,
+  "sample_count": 1200,
+  "runtime": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41"
+  },
+  "note": "No network, payment processor, trusted hardware, real properties, external fraud checks, service mesh or production data. No VLOP comparison. Test machine contention and disk durability differ.",
+  "descriptor_digest_only": {
+    "n": 1200,
+    "p50_ms": 0.0034,
+    "p95_ms": 0.0039,
+    "p99_ms": 0.01,
+    "mean_ms": 0.0038,
+    "max_ms": 0.0753
+  },
+  "authorize": {
+    "n": 1200,
+    "p50_ms": 0.0316,
+    "p95_ms": 0.052,
+    "p99_ms": 0.1089,
+    "mean_ms": 0.0354,
+    "max_ms": 0.33
+  },
+  "effect": {
+    "n": 1200,
+    "p50_ms": 0.0387,
+    "p95_ms": 0.063,
+    "p99_ms": 0.1375,
+    "mean_ms": 0.044,
+    "max_ms": 0.3549
+  },
+  "authorize_plus_effect": {
+    "n": 1200,
+    "p50_ms": 0.071,
+    "p95_ms": 0.1167,
+    "p99_ms": 0.2012,
+    "mean_ms": 0.0794,
+    "max_ms": 0.3925
+  }
+}

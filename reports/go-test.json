@@ -1,0 +1,104 @@
+{"Time":"2026-10-27T12:33:29.901437608Z","Action":"start","Package":"example.org/das-marketplace-gateway"}
+{"Time":"2026-10-27T12:33:29.904076764Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix"}
+{"Time":"2026-10-27T12:33:29.904092888Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix","Output":"=== RUN   TestAdmissionMatrix\n"}
+{"Time":"2026-10-27T12:33:29.904317495Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_message"}
+{"Time":"2026-10-27T12:33:29.904321912Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_message","Output":"=== RUN   TestAdmissionMatrix/valid_message\n"}
+{"Time":"2026-10-27T12:33:29.904332308Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_message","Output":"--- PASS: TestAdmissionMatrix/valid_message (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904336414Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_message","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904345708Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/wrong_recipient"}
+{"Time":"2026-10-27T12:33:29.904347741Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/wrong_recipient","Output":"=== RUN   TestAdmissionMatrix/wrong_recipient\n"}
+{"Time":"2026-10-27T12:33:29.904350285Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/wrong_recipient","Output":"--- PASS: TestAdmissionMatrix/wrong_recipient (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904352237Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/wrong_recipient","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904355823Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_booking"}
+{"Time":"2026-10-27T12:33:29.904357485Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_booking","Output":"=== RUN   TestAdmissionMatrix/missing_booking\n"}
+{"Time":"2026-10-27T12:33:29.904359799Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_booking","Output":"--- PASS: TestAdmissionMatrix/missing_booking (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904361612Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_booking","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904363755Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_link_out_of_scope"}
+{"Time":"2026-10-27T12:33:29.904365367Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_link_out_of_scope","Output":"=== RUN   TestAdmissionMatrix/payment_link_out_of_scope\n"}
+{"Time":"2026-10-27T12:33:29.904368191Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_link_out_of_scope","Output":"--- PASS: TestAdmissionMatrix/payment_link_out_of_scope (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904370395Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_link_out_of_scope","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904372448Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_actor"}
+{"Time":"2026-10-27T12:33:29.90437399Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_actor","Output":"=== RUN   TestAdmissionMatrix/unverified_actor\n"}
+{"Time":"2026-10-27T12:33:29.904376394Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_actor","Output":"--- PASS: TestAdmissionMatrix/unverified_actor (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904378437Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_actor","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904384656Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_property"}
+{"Time":"2026-10-27T12:33:29.904386419Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_property","Output":"=== RUN   TestAdmissionMatrix/unverified_property\n"}
+{"Time":"2026-10-27T12:33:29.904388482Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_property","Output":"--- PASS: TestAdmissionMatrix/unverified_property (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904390275Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unverified_property","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904392167Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_delegation"}
+{"Time":"2026-10-27T12:33:29.90439366Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_delegation","Output":"=== RUN   TestAdmissionMatrix/missing_delegation\n"}
+{"Time":"2026-10-27T12:33:29.904396083Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_delegation","Output":"--- PASS: TestAdmissionMatrix/missing_delegation (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904397746Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_delegation","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904399589Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/high_risk_threshold"}
+{"Time":"2026-10-27T12:33:29.904401371Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/high_risk_threshold","Output":"=== RUN   TestAdmissionMatrix/high_risk_threshold\n"}
+{"Time":"2026-10-27T12:33:29.904403314Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/high_risk_threshold","Output":"--- PASS: TestAdmissionMatrix/high_risk_threshold (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904405187Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/high_risk_threshold","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.90440695Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/very_high_risk"}
+{"Time":"2026-10-27T12:33:29.904408312Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/very_high_risk","Output":"=== RUN   TestAdmissionMatrix/very_high_risk\n"}
+{"Time":"2026-10-27T12:33:29.904410205Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/very_high_risk","Output":"--- PASS: TestAdmissionMatrix/very_high_risk (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904411937Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/very_high_risk","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904413409Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/stale_generation"}
+{"Time":"2026-10-27T12:33:29.904414892Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/stale_generation","Output":"=== RUN   TestAdmissionMatrix/stale_generation\n"}
+{"Time":"2026-10-27T12:33:29.904418848Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/stale_generation","Output":"--- PASS: TestAdmissionMatrix/stale_generation (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904420891Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/stale_generation","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904422633Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unknown_current_generation"}
+{"Time":"2026-10-27T12:33:29.904424105Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unknown_current_generation","Output":"=== RUN   TestAdmissionMatrix/unknown_current_generation\n"}
+{"Time":"2026-10-27T12:33:29.904428422Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unknown_current_generation","Output":"--- PASS: TestAdmissionMatrix/unknown_current_generation (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904431056Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unknown_current_generation","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904433419Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/expired"}
+{"Time":"2026-10-27T12:33:29.904435112Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/expired","Output":"=== RUN   TestAdmissionMatrix/expired\n"}
+{"Time":"2026-10-27T12:33:29.904436975Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/expired","Output":"--- PASS: TestAdmissionMatrix/expired (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904438627Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/expired","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.90444027Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_actor"}
+{"Time":"2026-10-27T12:33:29.904441812Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_actor","Output":"=== RUN   TestAdmissionMatrix/missing_actor\n"}
+{"Time":"2026-10-27T12:33:29.904444025Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_actor","Output":"--- PASS: TestAdmissionMatrix/missing_actor (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904445728Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_actor","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.90444741Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_property"}
+{"Time":"2026-10-27T12:33:29.904448873Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_property","Output":"=== RUN   TestAdmissionMatrix/missing_property\n"}
+{"Time":"2026-10-27T12:33:29.904451547Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_property","Output":"--- PASS: TestAdmissionMatrix/missing_property (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.90445348Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/missing_property","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904455513Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/invalid_kind"}
+{"Time":"2026-10-27T12:33:29.904456915Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/invalid_kind","Output":"=== RUN   TestAdmissionMatrix/invalid_kind\n"}
+{"Time":"2026-10-27T12:33:29.904459819Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/invalid_kind","Output":"--- PASS: TestAdmissionMatrix/invalid_kind (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904463715Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/invalid_kind","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904465387Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_payment"}
+{"Time":"2026-10-27T12:33:29.90446682Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_payment","Output":"=== RUN   TestAdmissionMatrix/valid_payment\n"}
+{"Time":"2026-10-27T12:33:29.904469464Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_payment","Output":"--- PASS: TestAdmissionMatrix/valid_payment (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904471547Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/valid_payment","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904475032Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_merchant_substitution"}
+{"Time":"2026-10-27T12:33:29.904477005Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_merchant_substitution","Output":"=== RUN   TestAdmissionMatrix/payment_merchant_substitution\n"}
+{"Time":"2026-10-27T12:33:29.904479198Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_merchant_substitution","Output":"--- PASS: TestAdmissionMatrix/payment_merchant_substitution (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904481051Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_merchant_substitution","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904484516Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_amount_substitution"}
+{"Time":"2026-10-27T12:33:29.904486189Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_amount_substitution","Output":"=== RUN   TestAdmissionMatrix/payment_amount_substitution\n"}
+{"Time":"2026-10-27T12:33:29.904488412Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_amount_substitution","Output":"--- PASS: TestAdmissionMatrix/payment_amount_substitution (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904490435Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_amount_substitution","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904493179Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_currency_substitution"}
+{"Time":"2026-10-27T12:33:29.904512408Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_currency_substitution","Output":"=== RUN   TestAdmissionMatrix/payment_currency_substitution\n"}
+{"Time":"2026-10-27T12:33:29.904516454Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_currency_substitution","Output":"--- PASS: TestAdmissionMatrix/payment_currency_substitution (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904518487Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/payment_currency_substitution","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904521071Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unlabelled_boosted_ad"}
+{"Time":"2026-10-27T12:33:29.904522633Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unlabelled_boosted_ad","Output":"=== RUN   TestAdmissionMatrix/unlabelled_boosted_ad\n"}
+{"Time":"2026-10-27T12:33:29.904524606Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unlabelled_boosted_ad","Output":"--- PASS: TestAdmissionMatrix/unlabelled_boosted_ad (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904526419Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix/unlabelled_boosted_ad","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904528452Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix","Output":"--- PASS: TestAdmissionMatrix (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904530415Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestAdmissionMatrix","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904532258Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestReplayAndValidAd"}
+{"Time":"2026-10-27T12:33:29.9045339Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestReplayAndValidAd","Output":"=== RUN   TestReplayAndValidAd\n"}
+{"Time":"2026-10-27T12:33:29.904535863Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestReplayAndValidAd","Output":"--- PASS: TestReplayAndValidAd (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904539238Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestReplayAndValidAd","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904542874Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestConcurrentSingleUse"}
+{"Time":"2026-10-27T12:33:29.904544376Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestConcurrentSingleUse","Output":"=== RUN   TestConcurrentSingleUse\n"}
+{"Time":"2026-10-27T12:33:29.904548352Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestConcurrentSingleUse","Output":"--- PASS: TestConcurrentSingleUse (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904550105Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestConcurrentSingleUse","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.904551757Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPWellFormedAndMalformed"}
+{"Time":"2026-10-27T12:33:29.904554561Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPWellFormedAndMalformed","Output":"=== RUN   TestHTTPWellFormedAndMalformed\n"}
+{"Time":"2026-10-27T12:33:29.904556574Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPWellFormedAndMalformed","Output":"--- PASS: TestHTTPWellFormedAndMalformed (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904558297Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPWellFormedAndMalformed","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.90455994Z","Action":"run","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPMethodAndBodyRestrictions"}
+{"Time":"2026-10-27T12:33:29.904561402Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPMethodAndBodyRestrictions","Output":"=== RUN   TestHTTPMethodAndBodyRestrictions\n"}
+{"Time":"2026-10-27T12:33:29.904563505Z","Action":"output","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPMethodAndBodyRestrictions","Output":"--- PASS: TestHTTPMethodAndBodyRestrictions (0.00s)\n"}
+{"Time":"2026-10-27T12:33:29.904565268Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Test":"TestHTTPMethodAndBodyRestrictions","Elapsed":0}
+{"Time":"2026-10-27T12:33:29.90456712Z","Action":"output","Package":"example.org/das-marketplace-gateway","Output":"PASS\n"}
+{"Time":"2026-10-27T12:33:29.904663735Z","Action":"output","Package":"example.org/das-marketplace-gateway","Output":"ok  \texample.org/das-marketplace-gateway\t0.003s\n"}
+{"Time":"2026-10-27T12:33:29.904674492Z","Action":"pass","Package":"example.org/das-marketplace-gateway","Elapsed":0.003}

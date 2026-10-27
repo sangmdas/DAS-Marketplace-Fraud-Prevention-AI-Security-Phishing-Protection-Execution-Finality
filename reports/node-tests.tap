@@ -1,0 +1,158 @@
+
+> das-marketplace-advertising-presentation-gate@0.1.0 test
+> node --test --test-reporter=tap
+
+TAP version 13
+# Subtest: valid_organic
+ok 1 - valid_organic
+  ---
+  duration_ms: 1.057308
+  type: 'test'
+  ...
+# Subtest: valid_paid
+ok 2 - valid_paid
+  ---
+  duration_ms: 0.208863
+  type: 'test'
+  ...
+# Subtest: paid_without_label
+ok 3 - paid_without_label
+  ---
+  duration_ms: 0.33297
+  type: 'test'
+  ...
+# Subtest: paid_wrong_label
+ok 4 - paid_wrong_label
+  ---
+  duration_ms: 0.148583
+  type: 'test'
+  ...
+# Subtest: paid_without_payer
+ok 5 - paid_without_payer
+  ---
+  duration_ms: 0.10618
+  type: 'test'
+  ...
+# Subtest: paid_without_sponsor
+ok 6 - paid_without_sponsor
+  ---
+  duration_ms: 0.108914
+  type: 'test'
+  ...
+# Subtest: paid_without_reason
+ok 7 - paid_without_reason
+  ---
+  duration_ms: 0.122314
+  type: 'test'
+  ...
+# Subtest: paid_without_controls
+ok 8 - paid_without_controls
+  ---
+  duration_ms: 0.455114
+  type: 'test'
+  ...
+# Subtest: paid_controls_external_url
+ok 9 - paid_controls_external_url
+  ---
+  duration_ms: 0.271177
+  type: 'test'
+  ...
+# Subtest: paid_without_policy_version
+ok 10 - paid_without_policy_version
+  ---
+  duration_ms: 0.360933
+  type: 'test'
+  ...
+# Subtest: missing_listing_id
+ok 11 - missing_listing_id
+  ---
+  duration_ms: 0.162154
+  type: 'test'
+  ...
+# Subtest: numeric_listing_id
+ok 12 - numeric_listing_id
+  ---
+  duration_ms: 0.096605
+  type: 'test'
+  ...
+# Subtest: null_item
+ok 13 - null_item
+  ---
+  duration_ms: 0.074762
+  type: 'test'
+  ...
+# Subtest: string_item
+ok 14 - string_item
+  ---
+  duration_ms: 0.114061
+  type: 'test'
+  ...
+# Subtest: organic_without_sponsor
+ok 15 - organic_without_sponsor
+  ---
+  duration_ms: 0.08632
+  type: 'test'
+  ...
+# Subtest: valid_render_gate
+ok 16 - valid_render_gate
+  ---
+  duration_ms: 0.102825
+  type: 'test'
+  ...
+# Subtest: render_gate_dropped_label
+ok 17 - render_gate_dropped_label
+  ---
+  duration_ms: 0.090536
+  type: 'test'
+  ...
+# Subtest: render_gate_changed_payer
+ok 18 - render_gate_changed_payer
+  ---
+  duration_ms: 0.812711
+  type: 'test'
+  ...
+# Subtest: render_gate_changed_sponsor
+ok 19 - render_gate_changed_sponsor
+  ---
+  duration_ms: 0.204748
+  type: 'test'
+  ...
+# Subtest: render_gate_changed_reason
+ok 20 - render_gate_changed_reason
+  ---
+  duration_ms: 0.091537
+  type: 'test'
+  ...
+# Subtest: render_gate_missing_controls
+ok 21 - render_gate_missing_controls
+  ---
+  duration_ms: 0.074733
+  type: 'test'
+  ...
+# Subtest: html_title_escaped
+ok 22 - html_title_escaped
+  ---
+  duration_ms: 0.131397
+  type: 'test'
+  ...
+# Subtest: html_sponsor_escaped
+ok 23 - html_sponsor_escaped
+  ---
+  duration_ms: 0.072139
+  type: 'test'
+  ...
+# Subtest: html_reason_escaped
+ok 24 - html_reason_escaped
+  ---
+  duration_ms: 0.062324
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 68.2191
